@@ -36,6 +36,11 @@ conjure-up
 
 
 
+# Uninstall
+
+
 conjure-down --- (remove)
 
 sudo snap remove conjure-up (remove)
+
+
