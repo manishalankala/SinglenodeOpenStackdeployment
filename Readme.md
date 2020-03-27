@@ -43,8 +43,11 @@ conjure-up
 
 
 
+# refrences
 
+https://github.com/conjure-up/conjure-up/issues/1590
 
+https://github.com/conjure-up/conjure-up/issues/1308
 
 
 # Uninstall
