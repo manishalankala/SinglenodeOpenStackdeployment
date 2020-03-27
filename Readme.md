@@ -90,6 +90,13 @@ https://github.com/conjure-up/conjure-up/issues/1590
 https://github.com/conjure-up/conjure-up/issues/1308
 
 
+```
+sudo apt-get update; sudo apt-get upgrade -y; sudo snap install lxd; sudo snap install conjure-up --classic; /snap/bin/lxd init --auto; /snap/bin/lxc network create lxbr0 ipv4.address=auto ipv4.nat=true ipv6.address=none ipv6.nat=false
+
+conjure-up or conjure-up openstack
+
+```
+
 # Uninstall
 
 
