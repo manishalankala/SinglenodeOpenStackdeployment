@@ -35,6 +35,17 @@ lxc profile show default
 conjure-up
 
 
+# Errors
+
+![image](https://user-images.githubusercontent.com/33985509/77767622-a3b5b080-7041-11ea-96f2-66231353454e.png)
+
+![image](https://user-images.githubusercontent.com/33985509/77767548-87197880-7041-11ea-9651-8ef7699e37de.png)
+
+
+
+
+
+
 
 # Uninstall
 
