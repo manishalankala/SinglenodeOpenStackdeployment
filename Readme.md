@@ -41,6 +41,36 @@ conjure-up
 ![image](https://user-images.githubusercontent.com/33985509/77768071-43733e80-7042-11ea-8541-c1497aced8fe.png)
 
 
+which juju
+
+/snap/bin/juju
+
+manish_chintu91@instance-1:~$ juju version
+
+2.6.10-bionic-amd64
+
+manish_chintu91@instance-1:~$ which conjure-up
+
+/snap/bin/conjure-up
+
+manish_chintu91@instance-1:~$ conjure-up --version
+
+conjure-up 2.6.10
+
+manish_chintu91@instance-1:~$ which lxc
+
+/snap/bin/lxc
+
+manish_chintu91@instance-1:~$ cat /etc/lsb-release
+
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.4 LTS"
+
+manish_chintu91@instance-1:~$ lxc version
+Client version: 3.23
+Server version: 3.23
 
 
 # Errors
