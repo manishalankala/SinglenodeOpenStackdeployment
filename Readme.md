@@ -105,3 +105,6 @@ conjure-down --- (remove)
 sudo snap remove conjure-up (remove)
 
 
+# Ticket
+
+https://github.com/conjure-up/conjure-up/issues/1647
