@@ -192,6 +192,7 @@ FIXED_RANGE=10.11.12.0/24
 ADMIN_PASSWORD=supersecret
 DATABASE_PASSWORD=iheartdatabases
 RABBIT_PASSWORD=flopsymopsy
+SERVICE_PASSWORD=iheartksl
 
 ```
-SERVICE_PASSWORD=iheartksl
+
