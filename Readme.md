@@ -201,3 +201,15 @@ SERVICE_PASSWORD=password
 ```
 
 ![image](https://user-images.githubusercontent.com/33985509/77860299-c34e0400-720e-11ea-87cb-0b2e9e6c2e94.png)
+
+http://10.128.0.15/dashboard
+
+http://10.128.0.15/identity/
+
+http://34.71.186.50/dashboard/project/
+
+admin
+
+password
+
+
