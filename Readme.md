@@ -164,8 +164,17 @@ grep --color vmx /proc/cpuinfo
 grep --color svm /proc/cpuinfo
 
 
-
 sudo apt install qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager -y
 
 
 ![image](https://user-images.githubusercontent.com/33985509/77857587-ae697480-71fe-11ea-9821-a556b8d15fd8.png)
+
+sudo useradd -s /bin/bash -d /opt/stack -m stack
+
+apt-get install sudo -y
+
+echo "stack ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+sudo apt-get install git -y 
+
+
