@@ -108,3 +108,22 @@ sudo snap remove conjure-up (remove)
 # Ticket
 
 https://github.com/conjure-up/conjure-up/issues/1647
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Single Node ("All in One") Deployments
+
+A minimum of 2 GB of RAM is recommended
+
+64-bit x86 processor - Intel 64 or AMD64 
+
+AMD-V or Intel VT hardware virtualization extensions enabled.
+
+A minimum of 50 GB of available disk space is recommended
+
+1 x 1 Gbps Network Interface Card
