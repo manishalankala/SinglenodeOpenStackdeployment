@@ -142,3 +142,30 @@ minimum of 50 GB of available disk space
 Network Interface Cards - 2 x 1 Gbps Network Interface Cards
 
 
+
+sudo apt update
+
+sudo apt install openjdk-8-jdk
+
+java -version
+
+openjdk version "11.0.6" 2020-01-14
+
+OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
+
+OpenJDK 64-Bit Server VM (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1, mixed mode)
+
+sudo apt-get install python3
+
+sudo apt-get upgrade python3
+
+grep --color vmx /proc/cpuinfo
+
+grep --color svm /proc/cpuinfo
+
+
+
+sudo apt install qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager -y
+
+
+![image](https://user-images.githubusercontent.com/33985509/77857587-ae697480-71fe-11ea-9821-a556b8d15fd8.png)
