@@ -118,6 +118,8 @@ https://github.com/conjure-up/conjure-up/issues/1647
 
 Single Node ("All in One") Deployments
 
+# Cloud Controller
+
 A minimum of 2 GB of RAM is recommended
 
 64-bit x86 processor - Intel 64 or AMD64 
@@ -126,4 +128,15 @@ AMD-V or Intel VT hardware virtualization extensions enabled.
 
 A minimum of 50 GB of available disk space is recommended
 
-1 x 1 Gbps Network Interface Card
+Network Interface Cards -  1 x 1 Gbps Network Interface Card
+
+
+# Compute Nodes
+
+64-bit x86 processor with support for the Intel 64 or AMD64 CPU extensions, and the AMD-V or Intel VT hardware virtualization extensions enabled.
+
+A minimum of 2 GB of RAM is recommended.
+
+minimum of 50 GB of available disk space
+
+Network Interface Cards - 2 x 1 Gbps Network Interface Cards
