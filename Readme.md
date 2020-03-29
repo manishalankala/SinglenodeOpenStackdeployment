@@ -184,3 +184,14 @@ git clone https://opendev.org/openstack/devstack
 cd devstack
 
 changes as below local.conf
+
+```
+[[local|localrc]]
+FLOATING_RANGE=192.168.1.224/27
+FIXED_RANGE=10.11.12.0/24
+ADMIN_PASSWORD=supersecret
+DATABASE_PASSWORD=iheartdatabases
+RABBIT_PASSWORD=flopsymopsy
+
+```
+SERVICE_PASSWORD=iheartksl
