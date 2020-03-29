@@ -140,3 +140,5 @@ A minimum of 2 GB of RAM is recommended.
 minimum of 50 GB of available disk space
 
 Network Interface Cards - 2 x 1 Gbps Network Interface Cards
+
+
