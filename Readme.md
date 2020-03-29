@@ -177,4 +177,6 @@ echo "stack ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 sudo apt-get install git -y 
 
+git clone https://opendev.org/openstack/devstack
 
+cd devstack
