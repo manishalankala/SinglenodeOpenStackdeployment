@@ -224,45 +224,7 @@ password
 
 ```
 
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: gitlab
-  labels:
-    app: gitlab
-spec:
-  replicas: 1
-  selector: 
-    matchLabels: 
-       app: gitlab
-  strategy:
-    type: Recreate
-  template:
-    metadata:
-      labels:
-        app: gitlab
-        tier: frontend
-    spec:
-      containers:
-        - image: gitlab/gitlab-ce:latest
-          name: gitlab
-          env:
-            - name: GITLAB_OMNIBUS_CONFIG
-              value: |
-                gitlab_rails['gitlab_shell_ssh_port'] = 30022
-                external_url 'http://gitlab.cms.local:30080'
-          ports:
-            - containerPort: 30080
-              name: gitlab
-          volumeMounts:
-            - name: gitlab
-              mountPath: /var/opt/gitlab
-              subPath: gitlab_data
-            - name: gitlab
-              mountPath: /etc/gitlab
-              subPath: gitlab_configuration
-      volumes:
-        - name: gitlab
+
         
 ```
 
