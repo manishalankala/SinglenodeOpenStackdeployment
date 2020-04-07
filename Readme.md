@@ -265,3 +265,30 @@ spec:
         - name: gitlab
         
 ```
+
+```
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitlab
+  labels:
+    app: gitlab
+spec:
+  ports:
+    - name: gitlab-ui
+      port: 80
+      protocol: TCP
+      targetPort: 30080
+      nodePort: 30080
+    - name: gitlab-ssh
+      port: 22
+      protocol: TCP
+      targetPort: 22
+      nodePort: 30022
+  selector:
+    app: gitlab
+    tier: frontend
+  type: NodePort
+  
+```
